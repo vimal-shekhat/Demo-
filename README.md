@@ -1,7 +1,26 @@
-Hello vimal,
-43436444030
-This is to inform you that Amazon Transportation Services has delivered a package from your order, with tracking ID 919111364249 with following items: 
+<<<<<<< HEAD
+# CakePHP Application Skeleton
 
-We permit our associates to release a package provided that the package can be signed for at the delivery address. If this address is a business premises, please check at the office reception or the mail 
+[![Build Status](https://api.travis-ci.org/cakephp/app.png)](https://travis-ci.org/cakephp/app)
+[![License](https://poser.pugx.org/cakephp/app/license.svg)](https://packagist.org/packages/cakephp/app)
 
-We permit our associates to release a package provided that the package can be signed for at the delivery address. If this address is a business premises, please check at the office reception or the mail 
+A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.0.
+
+This is an unstable repository and should be treated as an alpha.
+
+## Installation
+
+1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
+2. Run `php composer.phar create-project --prefer-dist -s dev cakephp/app [app_name]`.
+
+If Composer is installed globally, run
+```bash
+composer create-project --prefer-dist -s dev cakephp/app [app_name]
+```
+
+You should now be able to visit the path to where you installed the app and see
+the setup traffic lights.
+
+## Configuration
+
+Read and edit `config/app.php` and setup the 'Datasources' and any other
